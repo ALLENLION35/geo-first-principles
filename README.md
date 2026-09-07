@@ -33,12 +33,12 @@ GEO（Generative Engine Optimization，生成式引擎优化）关注内容在�
 
 把下面这句话发给具备联网、文件读写和技能安装能力的 Agent：
 
-> 帮我安装 GEO第一性原理： https://github.com/lianghailongbj-commits/geo-first-principles 。请阅读仓库 README，按照当前应用支持的方式安装完整技能目录，安装后确认能找到 geo-first-principles。
+> 帮我安装 GEO第一性原理： https://github.com/ALLENLION35/geo-first-principles 。请阅读仓库 README，按照当前应用支持的方式安装完整技能目录，安装后确认能找到 geo-first-principles。
 
 首次安装建议附上仓库地址。只说“帮我安装 GEO第一性原理”是否能找到本项目，取决于应用的搜索与索引；仅能聊天的应用请使用下方的文件加载方式。
 
-- [下载 1.0 技能安装包](https://github.com/lianghailongbj-commits/geo-first-principles/releases/download/v1.0/geo-first-principles-1.0.zip)
-- [查看 1.0 发布页](https://github.com/lianghailongbj-commits/geo-first-principles/releases/tag/v1.0)
+- [下载 1.0 技能安装包](https://github.com/ALLENLION35/geo-first-principles/releases/download/v1.0/geo-first-principles-1.0.zip)
+- [查看 1.0 发布页](https://github.com/ALLENLION35/geo-first-principles/releases/tag/v1.0)
 
 ## 开始使用
 
@@ -74,13 +74,13 @@ Skill 提供问题与操作，不自动运行测试或分析实测回答效果�
 使用 [skills CLI](https://github.com/vercel-labs/skills) 从 GitHub 安装：
 
 ```bash
-npx skills add lianghailongbj-commits/geo-first-principles --skill geo-first-principles
+npx skills add ALLENLION35/geo-first-principles --skill geo-first-principles
 ```
 
 需要先查看安装器是否识别到技能，可以只列出技能而不安装：
 
 ```bash
-npx skills add lianghailongbj-commits/geo-first-principles --list
+npx skills add ALLENLION35/geo-first-principles --list
 ```
 
 也可以解压安装包，在 `geo-first-principles` 的上一级执行：
@@ -94,8 +94,8 @@ npx skills add ./geo-first-principles --skill geo-first-principles
 明确安装到 Codex 或 Claude Code 的个人技能目录时，可分别执行：
 
 ```bash
-npx skills add lianghailongbj-commits/geo-first-principles --skill geo-first-principles --agent codex --global
-npx skills add lianghailongbj-commits/geo-first-principles --skill geo-first-principles --agent claude-code --global
+npx skills add ALLENLION35/geo-first-principles --skill geo-first-principles --agent codex --global
+npx skills add ALLENLION35/geo-first-principles --skill geo-first-principles --agent claude-code --global
 ```
 
 这些命令的参数以 [skills CLI 官方说明](https://github.com/vercel-labs/skills)为依据。只执行自己需要的平台对应命令；安装完成后，重新打开会话并请求使用 GEO第一性原理。
