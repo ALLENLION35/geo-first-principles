@@ -1,0 +1,80 @@
+<svg viewBox="-10 0 850 400" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GEO 落地十步：上排准备与测量，下排执行与验证，末步回到第一步">
+  <style>
+    .lbl{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;}
+    .box rect{fill:#f2f2f4;stroke:#d2d3d9;stroke-width:1.2;}
+    .box text{fill:#66686f;}
+    .box.in rect{fill:#f6efe7;stroke:#8a5a2b;}
+    .box.in text{fill:#1b1b1f;}
+    .box.cond rect{fill:#fbf7f1;stroke:#8a5a2b;stroke-dasharray:5 4;}
+    .box.cond text{fill:#43454d;}
+    .box.start rect{stroke-width:2.6;}
+    .num{font-size:12px;font-weight:700;}
+    .name{font-size:14.5px;font-weight:700;}
+    .gist{font-size:11.5px;}
+    .arrow{stroke:#b8a58c;stroke-width:1.6;fill:none;marker-end:url(#ah);}
+    .band{font-size:12.5px;fill:#8a5a2b;font-weight:700;letter-spacing:1px;}
+    .legend{font-size:11.5px;fill:#6b6e78;}
+    .badge rect{fill:#8a5a2b;}
+    .badge text{fill:#ffffff;font-size:11px;font-weight:700;}
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b8a58c"/>
+    </marker>
+  </defs>
+  <g class="lbl">
+    <text class="band" x="40" y="42">准备与测量 · 第 1–5 步</text>
+
+    <!-- top row: 1 to 5, left to right -->
+    <g class="box in start" id="r1"><rect x="40" y="56" width="136" height="78" rx="6"/>
+      <text class="num" x="52" y="76">第 1 步</text><text class="name" x="52" y="98">事实本体</text><text class="gist" x="52" y="120">先把事实理清</text></g>
+    <g class="box in" id="r2"><rect x="196" y="56" width="136" height="78" rx="6"/>
+      <text class="num" x="208" y="76">第 2 步</text><text class="name" x="208" y="98">业务目标</text><text class="gist" x="208" y="120">只追一个结果</text></g>
+    <g class="box in" id="r3"><rect x="352" y="56" width="136" height="78" rx="6"/>
+      <text class="num" x="364" y="76">第 3 步</text><text class="name" x="364" y="98">用户意图</text><text class="gist" x="364" y="120">客户真会问什么</text></g>
+    <g class="box in" id="r4"><rect x="508" y="56" width="136" height="78" rx="6"/>
+      <text class="num" x="520" y="76">第 4 步</text><text class="name" x="520" y="98">基线检测</text><text class="gist" x="520" y="120">AI 现在怎么说你</text></g>
+    <g class="box in" id="r5"><rect x="664" y="56" width="136" height="78" rx="6"/>
+      <text class="num" x="676" y="76">第 5 步</text><text class="name" x="676" y="98">策略形成</text><text class="gist" x="676" y="120">差距属于哪一类</text></g>
+
+    <path class="arrow" d="M176,95 L194,95"/>
+    <path class="arrow" d="M332,95 L350,95"/>
+    <path class="arrow" d="M488,95 L506,95"/>
+    <path class="arrow" d="M644,95 L662,95"/>
+
+    <!-- down from 5 to 6 -->
+    <path class="arrow" d="M732,134 L732,206 L800,206 L800,260"/>
+    <text class="legend" x="742" y="188">进入执行</text>
+
+    <text class="band" x="40" y="252">执行与验证 · 第 6–10 步</text>
+
+    <!-- bottom row: 6 to 10, right to left -->
+    <g class="box cond" id="r6"><rect x="664" y="264" width="136" height="78" rx="6"/>
+      <text class="num" x="676" y="284">第 6 步</text><text class="name" x="676" y="306">内容制作</text><text class="gist" x="676" y="328">事实变成可引用</text></g>
+    <g class="box cond" id="r7"><rect x="508" y="264" width="136" height="78" rx="6"/>
+      <text class="num" x="520" y="284">第 7 步</text><text class="name" x="520" y="306">信源管理发布</text><text class="gist" x="520" y="328">发对地方并验证</text></g>
+    <g class="box" id="r8"><rect x="352" y="264" width="136" height="78" rx="6"/>
+      <text class="num" x="364" y="284">第 8 步</text><text class="name" x="364" y="306">持续监测</text><text class="gist" x="364" y="328">同一套题复测</text></g>
+    <g class="box" id="r9"><rect x="196" y="264" width="136" height="78" rx="6"/>
+      <text class="num" x="208" y="284">第 9 步</text><text class="name" x="208" y="306">效果归因</text><text class="gist" x="208" y="328">看有没有生意</text></g>
+    <g class="box" id="r10"><rect x="40" y="264" width="136" height="78" rx="6"/>
+      <text class="num" x="52" y="284">第 10 步</text><text class="name" x="52" y="306">回流本体</text><text class="gist" x="52" y="328">写回第 1 步</text></g>
+
+    <path class="arrow" d="M664,303 L646,303"/>
+    <path class="arrow" d="M508,303 L490,303"/>
+    <path class="arrow" d="M352,303 L334,303"/>
+    <path class="arrow" d="M196,303 L178,303"/>
+
+    <!-- loop back from 10 to 1 -->
+    <path class="arrow" d="M40,303 L22,303 L22,95 L38,95"/>
+    <text class="legend" x="6" y="204" transform="rotate(-90 6,204)">回到第 1 步</text>
+
+    <!-- start badge -->
+    <g class="badge" id="start-badge"><rect x="150" y="48" width="34" height="18" rx="3"/><text x="157" y="61">起点</text></g>
+
+    <!-- legend -->
+    <rect x="40" y="368" width="14" height="10" fill="#f6efe7" stroke="#8a5a2b" stroke-width="1.2"/><text class="legend" x="60" y="377">本轮要做</text>
+    <rect x="140" y="368" width="14" height="10" fill="#fbf7f1" stroke="#8a5a2b" stroke-width="1.2" stroke-dasharray="4 3"/><text class="legend" x="160" y="377">等第 4 步结果后启动</text>
+    <rect x="300" y="368" width="14" height="10" fill="#f2f2f4" stroke="#d2d3d9" stroke-width="1.2"/><text class="legend" x="320" y="377">本轮只定节奏或暂不做</text>
+  </g>
+</svg>
