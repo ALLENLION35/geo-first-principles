@@ -1,8 +1,8 @@
 interface:
   display_name: GEO第一性原理
-  short_description: 从生意本质判断GEO是否值得投入，提供清晰的企业报告与五题实测指引
+  short_description: 从生意本质判断GEO是否值得投入，交付带左侧导航与图示的完整HTML、五题自测与十步路线
   default_prompt: 使用 $geo-first-principles。企业名称：；主要业务：；客户与地区：；本次目标：；已有 GEO 尝试和结果：。请面向企业负责人讲清生意本质、GEO
-    价值与投入取舍，按六部分提供有依据、易读的报告和五题实测操作说明。
+    价值与投入取舍，默认生成带左侧分级导航、核心金句与轻量图示、内容完整且通俗易读的单页HTML，按六部分给出报告和五题实测操作说明，并以十步路线收口。
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
